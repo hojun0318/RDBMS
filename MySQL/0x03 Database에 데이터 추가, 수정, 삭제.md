@@ -53,7 +53,7 @@ mysql＞DELETE FROM {테이블 명} WHERE impl_id = 5 and proj_id <> 2004;
 ```
 mysql＞DELETE FROM {테이블 명}
 ```
-* WHERE 절이 없다는 게 특징, 없기 때문에 테이블에 있는 모든 Tuple이 삭제가 된다.
+- WHERE 절이 없다는 게 특징, 없기 때문에 테이블에 있는 모든 Tuple이 삭제가 된다.
   - UPDATE문 DELETE문 모두 WHERE절 없이도 동작할 수 있는데 모든 데이터를 바꾸거나 모든 데이터를 삭제하게 된다. (대단히 조심스럽게 사용해야 한다.)
 
 ### DELETE statement
